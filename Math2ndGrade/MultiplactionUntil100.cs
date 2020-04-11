@@ -13,10 +13,8 @@ namespace Math2ndGrade
 
         private void GenerateExcercises(int FirstMulInitialNum, int FirstMulRange, int secondMulInitialNum, int secondMulRange, int excercisesNum)
         {
-            for (int i = 0; i < excercisesNum / 3; ++i)
+            for (int i = 1; i <= excercisesNum / 3; ++i)
             {
-                for (int j = 0; j < 3; ++j)
-                {
                     int firstNum = new Random().Next(FirstMulInitialNum, FirstMulInitialNum + FirstMulRange + 1);
                     int secondNum = new Random().Next(secondMulInitialNum, secondMulInitialNum + secondMulRange + 1);
                     string exercise = $"{firstNum}*{secondNum} =";
@@ -29,9 +27,10 @@ namespace Math2ndGrade
                     {
                         Console.Write($" ");
                     }
-
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
             }
         }
     }

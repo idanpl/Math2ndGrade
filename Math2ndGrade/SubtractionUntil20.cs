@@ -13,10 +13,8 @@ namespace Math2ndGrade
 
         private void GenerateExcercises(int subtrahendFirstNun, int subtrahendRange, int minuendFirstNum, int minuendRange, int excercisesNum)
         {
-            for (int i = 0; i < excercisesNum/3; ++i)
+            for (int i = 1; i <= excercisesNum; ++i)
             {
-                for (int j = 0; j < 3; ++j)
-                {
                     int subtrahend = new Random().Next(subtrahendFirstNun, subtrahendFirstNun+subtrahendRange+1);
                     int minuend = new Random().Next(minuendFirstNum, minuendFirstNum + minuendRange + 1);
                     string exercise = $"{subtrahend}-{minuend} =";
@@ -25,8 +23,10 @@ namespace Math2ndGrade
                     {
                         Console.Write($" ");
                     }
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
             }
         }
     }
