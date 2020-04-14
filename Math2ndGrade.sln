@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math2ndGrade", "Math2ndGrade\Math2ndGrade.csproj", "{8A363566-328D-4807-B985-D39E5859F200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math2ndGrade", "Math2ndGrade\Math2ndGrade.csproj", "{8A363566-328D-4807-B985-D39E5859F200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseGeneratorApp", "ExerciseGeneratorApp\ExerciseGeneratorApp.csproj", "{97EEDF14-9DC2-46D0-A5D6-B80A91431172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamsLibrary", "ExamsLibrary\ExamsLibrary.csproj", "{68D15C7A-B7DC-4EE0-94E7-45190089A8E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8A363566-328D-4807-B985-D39E5859F200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A363566-328D-4807-B985-D39E5859F200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A363566-328D-4807-B985-D39E5859F200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EEDF14-9DC2-46D0-A5D6-B80A91431172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EEDF14-9DC2-46D0-A5D6-B80A91431172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EEDF14-9DC2-46D0-A5D6-B80A91431172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EEDF14-9DC2-46D0-A5D6-B80A91431172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D15C7A-B7DC-4EE0-94E7-45190089A8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D15C7A-B7DC-4EE0-94E7-45190089A8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D15C7A-B7DC-4EE0-94E7-45190089A8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D15C7A-B7DC-4EE0-94E7-45190089A8E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

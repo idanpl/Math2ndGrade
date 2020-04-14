@@ -1,0 +1,28 @@
+﻿<Window x:Class="Math2ndGrade.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Math2ndGrade"
+        mc:Ignorable="d"
+        Title="Exercise Generator" Height="700" Width="800">
+    <Grid>
+        <StackPanel Height="Auto" HorizontalAlignment="Left" VerticalAlignment="Top" Width="398">
+            <TextBlock Text="Choose your exercise type:" TextWrapping="Wrap" Margin="2,2,2,2" HorizontalAlignment="Center"/>
+            <Grid HorizontalAlignment="Center" Width="188">
+                <ItemsControl ItemsSource="{Binding ExercisesTypes}" Height="0" Margin="15,0"/>
+                <ComboBox x:Name="ExerciseTypeCombo" Width="188" HorizontalAlignment="Center" Margin="0,6,0,0" ItemsSource="{Binding ExercisesTypes}" SelectionChanged="OnExerciseTypeSelectionChanged">
+                </ComboBox>
+            </Grid>
+            <Button x:Name="GenerateExerciseButton" Content="Generate Exercises!" Margin="5,20,5,5" HorizontalAlignment="Center" RenderTransformOrigin="0.543,2.812" Click="OnGenerateExerciseClicked"/>
+            <TextBox x:Name="ResultTextBlock" TextWrapping="Wrap" Height="583" Background="Transparent" BorderThickness="0" IsReadOnly="True"/>
+        </StackPanel>
+        <StackPanel x:Name="ExerciseNumberPanel" Height="Auto" HorizontalAlignment="Right" VerticalAlignment="Top" Width="398">
+            <TextBlock Text="Choose your exercise number:" TextWrapping="Wrap" Margin="2,2,2,2" HorizontalAlignment="Center"/>
+            <TextBox x:Name="ExerciseNumberTextBox" Text="72" TextWrapping="Wrap" Width="120" PreviewTextInput="NumberValidationTextBox"/>
+        </StackPanel>
+        <StackPanel x:Name="ResultPanel">
+            
+        </StackPanel>
+    </Grid>
+</Window>

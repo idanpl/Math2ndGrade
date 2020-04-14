@@ -1,0 +1,7 @@
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\bin\Debug\netcoreapp3.1\ExamsLibrary.deps.json
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\bin\Debug\netcoreapp3.1\ExamsLibrary.dll
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\bin\Debug\netcoreapp3.1\ExamsLibrary.pdb
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\obj\Debug\netcoreapp3.1\ExamsLibrary.AssemblyInfoInputs.cache
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\obj\Debug\netcoreapp3.1\ExamsLibrary.AssemblyInfo.cs
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\obj\Debug\netcoreapp3.1\ExamsLibrary.dll
+C:\Users\Idan999\source\repos\Math2ndGrade\ExamsLibrary\obj\Debug\netcoreapp3.1\ExamsLibrary.pdb
