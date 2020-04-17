@@ -17,8 +17,8 @@ namespace Math2ndGrade
         {
             exercisesRegistry.Add("Substraction Until 20", new SubtractionUntil20());
             exercisesRegistry.Add("Substract until 100 no conversion", new SubstractionUntil100NoConversion());
-            exercisesRegistry.Add("Multiplication until 100", new MultiplactionUntil100());
-            
+            exercisesRegistry.Add("Substract until 100 with conversion", new SubtractionUntil100WithConvertion());
+            exercisesRegistry.Add("Multiplication until 100", new MultiplactionUntil100());                      
         }
 
         public IExercise GetExerciseGenerator(string key)

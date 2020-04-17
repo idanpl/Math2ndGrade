@@ -14,7 +14,7 @@ namespace Math2ndGrade
         private string GenerateExcercises(int FirstMulInitialNum, int FirstMulRange, int secondMulInitialNum, int secondMulRange, int excercisesNum)
         {
             StringBuilder sb = new StringBuilder();
-            for (int i = 1; i <= excercisesNum / 3; ++i)
+            for (int i = 1; i <= excercisesNum; ++i)
             {
                 int firstNum = new Random().Next(FirstMulInitialNum, FirstMulInitialNum + FirstMulRange + 1);
                 int secondNum = new Random().Next(secondMulInitialNum, secondMulInitialNum + secondMulRange + 1);
